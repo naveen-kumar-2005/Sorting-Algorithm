@@ -20,6 +20,10 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: your name:R.NAVEEN KUMAR
+RegisterNumber: 23013536
+'''
 def selectionsort(array,size):
     for ind in range(size):
         min_index=ind
@@ -33,10 +37,14 @@ arr=eval(input())
 size=len(arr)
 selectionsort(arr,size)
 print(arr)
-
+    
 ```
 ii)	#Insertion Sort
 ```
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by: R.NAVEEN KUMAR
+RegisterNumber: 23013536
+'''
 def insertion_sort(nums):
     for i in range(1,len(nums)):
         item_to_insert=nums[i]
@@ -48,9 +56,6 @@ def insertion_sort(nums):
 list_of_nums = eval(input())
 insertion_sort(list_of_nums)
 print(list_of_nums)
-
-
-
 
 
 
